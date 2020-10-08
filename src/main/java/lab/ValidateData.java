@@ -31,34 +31,20 @@ public class ValidateData {
                                     logger.info("Paso7");
                                       return true;
                                     }
-                                    else {
-                                        return false;
-                                    }
+
                                 }
-                                else{
-                                    return false;
-                                }
+
                             }
-                            else {
-                                return false;
-                            }
+
                         }
-                        else{
-                            return false;
-                        }
+
                     }
-                    else{
-                        return false;
-                    }
+
                 }
-                else {
-                    return false;
-                }
+
             }
-            else{
-                return false;
-            }
-        }
+        return false;
+    }
     public static boolean validarUrl(String url){
         return url.startsWith("https://utec.zoom.us/rec/share/");
     }
