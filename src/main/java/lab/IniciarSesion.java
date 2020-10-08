@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 public class IniciarSesion{
 
-    static final Logger logger = Logger.getLogger(IngresarData.class.getName());
+    static final Logger logger = Logger.getLogger(IniciarSesion.class.getName());
 
     public static RegistrApp readUser() throws Exception {
         logger.info("Ingresar nombre: ");
