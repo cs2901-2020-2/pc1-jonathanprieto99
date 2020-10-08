@@ -6,7 +6,7 @@ public class Main {
 
     static final Logger logger = Logger.getLogger(IngresarData.class.getName());
 
-    static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
         RegistrApp mainApp = IniciarSesion.readUser();
 
