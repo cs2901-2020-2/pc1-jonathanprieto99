@@ -1,7 +1,5 @@
 package lab;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 import java.util.Observable;
 import java.util.Observer;
 
