@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class EstacionMeteorologicaTest {
+public class RegistrAppTest {
     @Test
     public void test_get_data_single() throws Exception {
 
