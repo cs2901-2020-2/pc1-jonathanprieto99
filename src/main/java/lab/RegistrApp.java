@@ -6,11 +6,16 @@ public class RegistrApp extends Observable {
 
     private final String[] datos = new String[2];
 
-    public void addData(String titulo, String enlace) {
+    public void addData(String titulo, String enlace)throws Exception {
         setChanged();
-        datos[0] = titulo;
-        datos[1] = enlace;
-        notifyObservers(datos);
+        if(ValidateData.validarTitulo(titulo) && ValidateData.validarUrl(enlace)) {
+            datos[0] = titulo;
+            datos[1] = enlace;
+            notifyObservers(datos);
+        }
+        else {
+            throw new Exception("¡El formato de los parametros ingresados es incorrecto!");
+        }
     }
 
     public String[] getData() {

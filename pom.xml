@@ -9,7 +9,7 @@
         <sonar.projectKey>cs2901-2020-2_pc1-jonathanprieto99</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>ef15d5ad876c5e54079c9733cacd61d9e87486dd</sonar.login>
+        <sonar.login>f5a9f2378d2fe7251277692a84dd2f0416516b07</sonar.login>
     </properties>
     <groupId>org.example</groupId>
     <artifactId>pc1-jonathanprieto99</artifactId>
